@@ -7,3 +7,15 @@ feign:
         loggerLevel: full
       stores:
         loggerLevel: full
+logbook:
+  include:
+    - /**
+  exclude:
+    - /swagger-ui/**
+    - /v3/api-docs/**
+  filter:
+    enabled: true
+  format:
+    style: http
+  write:
+    max-body-size: -1

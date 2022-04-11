@@ -8,7 +8,7 @@
     </encoder>
   </appender>
 
-  <logger name="com.lig.feignlogging.controller.outbound.StoreClient" level="TRACE" />
+  <logger name="org.zalando.logbook" level="TRACE" />
 
   <root level="INFO">
     <appender-ref ref="STDOUT"/>
